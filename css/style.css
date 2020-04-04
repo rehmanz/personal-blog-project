@@ -5,14 +5,13 @@
   display: grid;
   grid-template-columns: 350px 350px 350px;
   grid-template-rows: 50px 600px;
-  border: 2px solid yellow;
+  border: 2px solid darkkhaki;
   grid-template-areas: "hd" "main" "ft";
-  border: 2px solid yellow;
   font: normal 13px "Helvetica Neue", sans-serif;
 }
 
 .box {
-  border: 1px solid red;
+  border: 1px solid palegoldenrod;
   background: lightgoldenrodyellow;
 }
 
@@ -40,6 +39,6 @@
       "hd hd hd hd hd hd hd hd"
       "main main main main main main main main"
       "ft ft ft ft ft ft ft ft";
-    border: 2px solid red;
+    border: 2px solid palegoldenrod;
   }
 }
