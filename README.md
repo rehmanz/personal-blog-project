@@ -1,2 +1,2 @@
-# fusionstack
-Fusion Stack Blog Site
+# Fusion Stack Blog
+Helping software developers make sense of software packaging, integration and delivery. The Fusion Stack -- CI, CD, ....
