@@ -4,14 +4,10 @@
 .container {
   display: grid;
   grid-template-columns: 350px 350px 350px;
-  grid-template-rows: 80px 600px;
+  /* grid-template-rows: 80px 600px; */
   background-color: snow;
   grid-template-areas: "hd" "main" "ft";
   font: normal 13px "Helvetica Neue", sans-serif;
-}
-
-.content {
-  grid-area: main;
 }
 
 .footer {
@@ -25,7 +21,7 @@
   .container {
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 80px 600px;
+    /* grid-template-rows: 80px 600px; */
     grid-template-areas:
       "hd hd hd hd hd hd hd hd"
       "main main main main main main main main"
@@ -68,6 +64,41 @@ li a:hover:not(.active) {
   background-color: black;
 }
 
-.active {
+.active-nav {
   background-color: goldenrod;
+}
+
+/***************************************************** 
+ * Blog Post Card
+ *****************************************************/
+.content {
+  grid-area: main;
+}
+
+.blogPostCardGrid{
+  display: grid;
+}
+
+.blogPostCardGrid > *{
+  border: 2px solid whitesmoke;
+  margin: 5px;
+}
+
+.blogPostCard {
+  display: grid;
+  /* grid-template-columns: 50% 50%; */
+  /* grid-template-rows: 50% 50%; */
+  background: whitesmoke;
+}
+
+.blogPostCard > *{
+  margin: 5px;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption {
+  text-align: center;
 }

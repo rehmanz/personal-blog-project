@@ -10,20 +10,29 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
+  <body>    
+    <div class = "container">
+      <div class="navigation">
+        <ul>
+          <li><a class="active-nav" href="#home">Home</a></li>
+          <li><a href="#Today">Today</a></li>
+          <li><a href="#Weekly Edition">Weekly Edition</a></li>
+          <li style="float:right"><a href="#subscribe">Subscribe</a></li>
+        </ul>
+      </div>
       
-  <div class = "container">
-    <div class="navigation">
-      <ul>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#Today">Today</a></li>
-        <li><a href="#Weekly Edition">Weekly Edition</a></li>
-        <li style="float:right"><a href="#subscribe">Subscribe</a></li>
-      </ul>
+      <div class="content blogPostCardGrid">
+        <div class="blogPostCard">
+          <a href="https://www.figma.com/blog/post-mortem-service-disruption-on-january-21-22-2020/"> 
+            <img src="images/software_packaging_card.jpeg" alt="How to Package a Python Application">
+          </a>
+          <p>Author | April 4, 2020</p>
+          <h2>How to Package a Python Application</h2>
+          <p>Learn how to package and distribute your application using PIP packaging.</p> 
+        </div>
+      </div>
+      
+      <div class="footer">Footer</div>
     </div>
-    <div class="content">Content</div>
-    <div class="footer">Footer</div>
-  </div>
-  
   </body>
 </html>
