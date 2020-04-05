@@ -4,7 +4,6 @@
 .container {
   display: grid;
   grid-template-columns: 350px 350px 350px;
-  /* grid-template-rows: 80px 600px; */
   background-color: snow;
   grid-template-areas: "hd" "main" "ft";
   font: normal 13px "Helvetica Neue", sans-serif;
@@ -21,7 +20,6 @@
   .container {
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    /* grid-template-rows: 80px 600px; */
     grid-template-areas:
       "hd hd hd hd hd hd hd hd"
       "main main main main main main main main"
@@ -35,7 +33,6 @@
  *****************************************************/
 .navigation {
   grid-area: hd;
-  /* grid-template-columns: .1fr 1fr .1fr; */
   grid-gap: 5px;
   border-radius: 5px;
 }
@@ -86,8 +83,6 @@ li a:hover:not(.active) {
 
 .blogPostCard {
   display: grid;
-  /* grid-template-columns: 50% 50%; */
-  /* grid-template-rows: 50% 50%; */
   background: whitesmoke;
 }
 
