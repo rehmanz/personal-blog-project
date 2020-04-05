@@ -9,10 +9,6 @@
   font: normal 13px "Helvetica Neue", sans-serif;
 }
 
-.footer {
-  grid-area: ft;
-}
-
 /***************************************************** 
  * Regular View 
  *****************************************************/
@@ -94,6 +90,10 @@ li a:hover:not(.active) {
   margin-right: auto;
 }
 
-.caption {
-  text-align: center;
+/***************************************************** 
+ * Footer
+ *****************************************************/
+ .footer {
+  grid-area: ft;
+  background-color: whitesmoke;
 }
