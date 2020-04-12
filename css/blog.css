@@ -30,20 +30,3 @@
 .blogPostCard > p {
   text-align: left;
 }
-
-img {
-  width: 100%;
-}
-
-h1 {
-  font-family: 'Roboto', sans-serif;;
-}
-
-h2 {
-  font-family: 'Roboto', sans-serif;;
-}
-
-p {
-  text-align: justify;
-  align-items: left;
-}
