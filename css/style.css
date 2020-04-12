@@ -12,7 +12,7 @@
 /***************************************************** 
  * Regular View 
  *****************************************************/
-@media(min-width: 900px) {
+@media(min-width: 600px) {
   .container {
     display: grid;
     grid-template-columns: 300px 300px 300px;
@@ -91,7 +91,7 @@ li a:hover:not(.active) {
 }
 
 img {
-  width: 300px;
+  width: 100%;
 }
 
 /***************************************************** 
