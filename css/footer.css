@@ -1,0 +1,9 @@
+/***************************************************** 
+ * Footer
+ *****************************************************/
+.footer {
+  grid-area: ft;
+  background-color: whitesmoke;
+  text-align: center;
+  background-color: lightgray;
+}
