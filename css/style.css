@@ -1,3 +1,8 @@
+@import "navigation.css";
+@import "blog.css";
+@import "footer.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 /***************************************************** 
  * Mobile View 
  *****************************************************/
@@ -25,42 +30,8 @@
 }
 
 /***************************************************** 
- * Navigation Bar
+ * Common Element Properties 
  *****************************************************/
-.navigation {
-  grid-area: hd;
-  grid-gap: 5px;
-  border-radius: 5px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: dimgray;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: black;
-}
-
-.active-nav {
-  background-color: goldenrod;
-}
-
 img {
   width: 100%;
 }
@@ -71,14 +42,4 @@ h1 {
 
 h2 {
   font-family: 'Roboto', sans-serif;;
-}
-
-/***************************************************** 
- * Footer
- *****************************************************/
- .footer {
-  grid-area: ft;
-  background-color: whitesmoke;
-  text-align: center;
-  background-color: lightgray;
 }
