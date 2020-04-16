@@ -1,10 +1,11 @@
 /***************************************************** 
- * Navigation Bar
+ * Nav Bar
  *****************************************************/
-.navigation {
+.nav {
   grid-area: hd;
   grid-gap: 5px;
   border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -23,12 +24,16 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 6px 8px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
   background-color: black;
+}
+
+.subscribe-nav {
+  float: right; 
 }
 
 .active-nav {
