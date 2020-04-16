@@ -1,31 +1,58 @@
-@import "navigation.css";
+@import "nav.css";
 @import "blog.css";
 @import "footer.css";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /***************************************************** 
- * Mobile View 
+ * Views 
  *****************************************************/
-.container {
-  display: grid;
-  grid-template-columns: 350px 350px 350px;
-  background-color: snow;
-  grid-template-areas: "hd" "main" "ft";
-  font: normal 13px "Helvetica Neue", sans-serif;
-}
-
-/***************************************************** 
- * Regular View 
- *****************************************************/
-@media(min-width: 600px) {
+/* Extra Small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {
   .container {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    align-content: center;
+    grid-template-columns: 300px;
+    background-color: snow;
+    grid-template-areas: "hd" "main" "ft";
+    font: normal 10px "Helvetica Neue", sans-serif;
+  }
+}
+
+/* Medium devices (phones, 360px and down) */
+@media only screen and (min-width: 321) and (max-width: 360px) {
+  .container {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 360px;
+    background-color: snow;
+    grid-template-areas: "hd" "main" "ft";
+    font: normal 10px "Helvetica Neue", sans-serif;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 750px;
+    background-color: snow;
+    grid-template-areas: "hd" "main" "ft";
+    font: normal 12px "Helvetica Neue", sans-serif;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
     grid-template-areas:
       "hd hd hd hd hd hd hd hd"
       "main main main main main main main main"
       "ft ft ft ft ft ft ft ft";
     background-color: snow;
+    font: normal 12px "Helvetica Neue", sans-serif;
   }
 }
 
@@ -36,10 +63,6 @@ img {
   width: 100%;
 }
 
-h1 {
-  font-family: 'Roboto', sans-serif;;
-}
-
-h2 {
-  font-family: 'Roboto', sans-serif;;
+h1, h2, p {
+  font-family: 'Roboto', sans-serif;
 }
