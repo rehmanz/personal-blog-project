@@ -31,22 +31,22 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 969) {
   .container {
     display: grid;
     align-content: center;
-    grid-template-columns: 750px;
+    grid-template-columns: max-content;
     background-color: snow;
     grid-template-areas: "hd" "main" "ft";
     font: normal 12px "Helvetica Neue", sans-serif;
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* Large devices (laptops/desktops, 970px and up) */
+@media only screen and (min-width: 970px) {
   .container {
     display: grid;
-    grid-template-columns: 320px 320px 320px;
+    grid-template-columns: max-content;
     grid-template-areas:
       "hd hd hd hd hd hd hd hd"
       "main main main main main main main main"
