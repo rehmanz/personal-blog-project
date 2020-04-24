@@ -2,10 +2,15 @@
  * Nav Bar
  *****************************************************/
 .nav {
-  grid-area: hd;
+  /* grid-area: hd; */
   grid-gap: 5px;
   border-radius: 5px;
   font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 ul {
@@ -38,4 +43,6 @@ li a:hover:not(.active) {
 
 .active-nav {
   background-color: goldenrod;
+  display: flex;
+  justify-content: right;
 }
